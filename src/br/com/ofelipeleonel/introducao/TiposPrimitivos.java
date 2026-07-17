@@ -38,5 +38,15 @@ public class TiposPrimitivos {
 
 
 
+        System.out.println();
+        long valorLong = 4294967296L;
+        String bitsLong = Long.toBinaryString(valorLong);
+        int valorInt = (int) valorLong;
+        String bitsInt = Integer.toBinaryString(valorInt);
+        System.out.println("Valor long: " + valorLong);
+        System.out.println("Binário long:" + bitsLong);
+        System.out.println("Valor int: " + valorInt);
+        System.out.println("Binário int: " + bitsInt);
+
     }
 }
